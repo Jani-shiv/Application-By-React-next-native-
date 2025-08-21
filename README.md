@@ -110,8 +110,8 @@ Before you begin, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd reiki-healing-platform
+git clone https://github.com/Jani-shiv/Application-By-React-next-native-.git
+cd Application-By-React-next-native-
 ```
 
 ### 2. Install Dependencies
@@ -620,31 +620,149 @@ NODE_ENV=development DEBUG=* npm run dev
 
 ## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
+We welcome contributions from developers, designers, and the healing community! Here's how you can contribute to make this platform even better:
 
-1. **Fork the repository**
-2. **Create a feature branch**
+### 🚀 Quick Contribution Guide
+
+1. **Fork the Repository**
+   ```bash
+   # Fork on GitHub: https://github.com/Jani-shiv/Application-By-React-next-native-/fork
+   git clone https://github.com/YOUR_USERNAME/Application-By-React-next-native-.git
+   cd Application-By-React-next-native-
+   ```
+
+2. **Create a Feature Branch**
    ```bash
    git checkout -b feature/amazing-feature
+   # or for bug fixes:
+   git checkout -b bugfix/fix-issue-name
    ```
-3. **Make your changes**
-4. **Add tests for new functionality**
-5. **Commit your changes**
+
+3. **Make Your Changes**
+   - Follow the existing code style
+   - Add tests for new functionality
+   - Update documentation if needed
+   - Test your changes thoroughly
+
+4. **Commit Your Changes**
    ```bash
-   git commit -m 'Add amazing feature'
+   git add .
+   git commit -m "✨ feat: Add amazing new feature
+   
+   - Describe what your feature does
+   - List any breaking changes
+   - Reference any related issues (#123)"
    ```
-6. **Push to the branch**
+
+5. **Push to Your Fork**
    ```bash
    git push origin feature/amazing-feature
    ```
-7. **Open a Pull Request**
 
-### Contribution Guidelines
-- Write clear, concise commit messages
-- Add tests for new features
-- Update documentation as needed
-- Follow existing code style
-- Ensure all tests pass
+6. **Create a Pull Request**
+   - Go to: https://github.com/Jani-shiv/Application-By-React-next-native-/pulls
+   - Click "New Pull Request"
+   - Choose your branch and describe your changes
+   - Link any related issues
+
+### 💡 What Can You Contribute?
+
+#### 🐛 **Bug Fixes**
+- Fix authentication issues
+- Resolve database connection problems
+- Improve error handling
+- Fix responsive design issues
+
+#### ✨ **New Features**
+- Payment integration (Stripe, PayPal)
+- Video consultation feature
+- Calendar synchronization
+- Push notifications
+- Multi-language support
+- Dark mode theme
+- Advanced search filters
+
+#### 📱 **Mobile App Enhancements**
+- iOS/Android specific features
+- Offline mode capabilities
+- Camera integration for profile photos
+- Location-based therapist search
+- Biometric authentication
+
+#### 🎨 **UI/UX Improvements**
+- Better accessibility features
+- Improved animations
+- New themes and layouts
+- Better user onboarding
+- Enhanced admin dashboard
+
+#### 📚 **Documentation**
+- API documentation improvements
+- Tutorial videos
+- Code examples
+- Translation of docs
+- Better error message guides
+
+### 🏷️ **Issue Labels & Types**
+
+When creating issues or PRs, please use these labels:
+
+- `bug` - Something isn't working
+- `enhancement` - New feature or request
+- `documentation` - Improvements or additions to docs
+- `good first issue` - Good for newcomers
+- `help wanted` - Extra attention is needed
+- `question` - Further information is requested
+- `security` - Security-related issues
+- `performance` - Performance improvements
+- `mobile` - Mobile app specific
+- `backend` - Backend/API related
+- `frontend` - Web app related
+- `database` - Database related
+
+### 📋 **Contribution Guidelines**
+
+#### Code Style
+- **Backend**: Follow Node.js best practices, use async/await
+- **Frontend**: Use TypeScript, follow React hooks patterns
+- **Mobile**: Follow React Native conventions
+- **Database**: Use prepared statements, proper indexing
+
+#### Commit Message Format
+Use conventional commits format:
+```
+type(scope): description
+
+body (optional)
+
+footer (optional)
+```
+
+Examples:
+- `feat(auth): add OAuth login support`
+- `fix(api): resolve therapist search bug`
+- `docs(readme): update installation guide`
+- `style(ui): improve responsive design`
+
+#### Testing Requirements
+- Add unit tests for new functions
+- Include integration tests for API endpoints
+- Test mobile app on both iOS and Android
+- Ensure all existing tests pass
+
+#### Security Guidelines
+- Never commit sensitive data (passwords, API keys)
+- Use environment variables for configuration
+- Follow OWASP security guidelines
+- Report security issues privately
+
+### 🌟 **Recognition**
+
+Contributors will be:
+- Listed in our Contributors section
+- Mentioned in release notes
+- Invited to join our developer community
+- Eligible for contributor badges
 
 ## 📄 License
 
@@ -658,14 +776,71 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Tailwind CSS** for beautiful, responsive design
 - **All contributors** who helped build this platform
 
+### 🏆 **Contributors**
+
+Thanks to all the amazing people who have contributed to this project:
+
+<!-- Contributors list will be automatically updated -->
+<a href="https://github.com/Jani-shiv/Application-By-React-next-native-/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Jani-shiv/Application-By-React-next-native-" />
+</a>
+
+### 🌟 **Special Thanks**
+- The healing and wellness community for inspiration
+- Beta testers who provided valuable feedback
+- Open source projects that made this possible
+
+## 📊 **Project Stats**
+
+![GitHub stars](https://img.shields.io/github/stars/Jani-shiv/Application-By-React-next-native-?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Jani-shiv/Application-By-React-next-native-?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Jani-shiv/Application-By-React-next-native-)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Jani-shiv/Application-By-React-next-native-)
+![GitHub license](https://img.shields.io/github/license/Jani-shiv/Application-By-React-next-native-)
+
+## 🚀 **Quick Links**
+
+- 🌐 **Live Demo**: [Coming Soon]
+- 📱 **Mobile App**: [App Store](#) | [Google Play](#)
+- 📖 **Documentation**: https://github.com/Jani-shiv/Application-By-React-next-native-/wiki
+- 🐛 **Report Bug**: https://github.com/Jani-shiv/Application-By-React-next-native-/issues/new?template=bug_report.md
+- 💡 **Request Feature**: https://github.com/Jani-shiv/Application-By-React-next-native-/issues/new?template=feature_request.md
+- 💬 **Join Discussion**: https://github.com/Jani-shiv/Application-By-React-next-native-/discussions
+
 ## 📞 Support & Contact
 
-For support, questions, or feedback:
+### 🐛 **Report Issues**
+Found a bug or have a feature request? Please report it:
+- **GitHub Issues**: https://github.com/Jani-shiv/Application-By-React-next-native-/issues
+- **New Issue**: https://github.com/Jani-shiv/Application-By-React-next-native-/issues/new
 
-- **Email:** support@reikihealing.com
-- **Documentation:** [docs.reikihealing.com](docs.reikihealing.com)
-- **Issues:** [GitHub Issues](github.com/issues)
-- **Discussions:** [GitHub Discussions](github.com/discussions)
+### 💬 **Get Help & Discussions**
+- **GitHub Discussions**: https://github.com/Jani-shiv/Application-By-React-next-native-/discussions
+- **Q&A Forum**: https://github.com/Jani-shiv/Application-By-React-next-native-/discussions/categories/q-a
+- **Feature Requests**: https://github.com/Jani-shiv/Application-By-React-next-native-/discussions/categories/ideas
+
+### 👥 **Community**
+- **Contributors**: https://github.com/Jani-shiv/Application-By-React-next-native-/graphs/contributors
+- **Wiki**: https://github.com/Jani-shiv/Application-By-React-next-native-/wiki
+- **Releases**: https://github.com/Jani-shiv/Application-By-React-next-native-/releases
+
+### 📧 **Direct Contact**
+For urgent matters, security issues, or business inquiries:
+- **Repository Owner**: [@Jani-shiv](https://github.com/Jani-shiv)
+- **Email**: admin@reikihealing.com (for platform-related queries)
+
+### 🔒 **Security Issues**
+For security vulnerabilities, please:
+1. **DO NOT** create a public issue
+2. Email security concerns privately
+3. Use GitHub's security advisory feature
+4. Allow time for responsible disclosure
+
+### 📚 **Documentation Links**
+- **Main Repository**: https://github.com/Jani-shiv/Application-By-React-next-native-
+- **Project Board**: https://github.com/Jani-shiv/Application-By-React-next-native-/projects
+- **Code of Conduct**: https://github.com/Jani-shiv/Application-By-React-next-native-/blob/main/CODE_OF_CONDUCT.md
+- **Contributing Guide**: https://github.com/Jani-shiv/Application-By-React-next-native-/blob/main/CONTRIBUTING.md
 
 ---
 
