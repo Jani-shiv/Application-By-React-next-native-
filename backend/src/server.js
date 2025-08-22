@@ -70,10 +70,12 @@ app.use('*', (req, res) => {
 // Error handling middleware
 app.use(errorHandler);
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`🚀 Reiki Healing API server running on port ${PORT}`);
-  console.log(`📚 API Documentation: http://localhost:${PORT}/api/health`);
-});
+// Start server only if not in test mode
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => {
+    console.log(`🚀 Reiki Healing API server running on port ${PORT}`);
+    console.log(`📚 API Documentation: http://localhost:${PORT}/api/health`);
+  });
+}
 
 module.exports = app;

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { Heart, Mail, Phone, MapPin, Facebook, Twitter, Instagram } from 'lucide-react'
 
