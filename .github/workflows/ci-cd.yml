@@ -41,6 +41,23 @@ jobs:
       working-directory: ./backend
       run: npm ci
 
+    - name: 🔍 Debug test discovery
+      run: |
+        echo "🔍 Debugging Jest test discovery..."
+        echo "📂 Current directory: $(pwd)"
+        echo "📁 Backend directory contents:"
+        ls -la backend/
+        echo "📁 Backend src directory contents:"
+        ls -la backend/src/
+        echo "🧪 Backend tests directory contents:"
+        ls -la backend/src/tests/ || echo "❌ Tests directory not found"
+        echo "📄 Test files found:"
+        find backend/src -name "*.test.js" -o -name "*.spec.js" || echo "❌ No test files found"
+        echo "⚙️ Jest configuration:"
+        cat backend/jest.config.json || echo "❌ Jest config not found"
+        echo "🎯 Jest dry run:"
+        cd backend && npx jest --listTests || echo "❌ Jest listTests failed"
+
     - name: 🧪 Run backend tests
       working-directory: ./backend
       run: npm test
