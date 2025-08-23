@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "tsc --noEmit && echo 'TypeScript compilation successful ✅' && node -e \"console.log('Web app tests passed ✅')\"",
+    "test": "tsc --noEmit && node -e \"console.log('Web app TypeScript check passed ✅')\"",
     "test:watch": "npm run test",
     "test:ui": "npm run test"
   },
